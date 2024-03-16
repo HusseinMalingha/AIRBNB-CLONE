@@ -6,9 +6,8 @@ section.filters {
     border: 1px #DDDDDD solid;
     border-radius: 4px;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-right: 30px;
+    align-items:center;
+    justify-content: space-between;
 }
 
 button {
@@ -20,24 +19,28 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-right: 30px;
 }
 
 button:hover {
     opacity: 0.9;
 }
 
-.locations, .amenities {
-    height: 100%;
+.filter {
     width: 25%;
+    height: 100%;
+    box-sizing: border-box;
 }
 
-.locations {
-    border-right: #DDDDDD 1px solid;
+.filter:first-child {
+    border-right: 1px solid #DDDDDD;
 }
-h3 {
+
+.filter h3 {
     font-weight: 600;
 }
-h4 {
-    font-size: 14px;
+
+.filter h4 {
     font-weight: 400;
+    font-size: 14px;
 }
