@@ -1,13 +1,12 @@
-
 section.filters {
     background-color: white;
     height: 70px;
     width: 100%;
-    /* border: 1px #DDDDDD solid; */
+    border: 1px #DDDDDD solid;
     border-radius: 4px;
     display: flex;
     align-items:center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
 button {
@@ -32,7 +31,6 @@ button:hover {
     box-sizing: border-box;
     margin: 0 auto;
     padding-top: 20px;
-    border: 1px solid #DDDDDD;
 }
 
 .filter:first-child {
@@ -50,24 +48,4 @@ button:hover {
     font-size: 14px;
     margin: 0;
     padding: 0;
-}
-
-/* color #FAFAFA
-width same as the div filter
-border #DDDDDD 1px with border radius 4px
-no list display
-Location filter has 2 levels of ul/li:
-state -> cities
-state name must be display in a h2 tag (font size 16px) */
-.popover {
-    /* display: none; */
-    background-color: #FAFAFA;
-    width: 100%;
-    border: #DDDDDD 1px solid;
-    border-radius: 4px;
-    margin-top: 15px;
-}
-
-.popover h2 {
-    font-size: 16px;
 }
