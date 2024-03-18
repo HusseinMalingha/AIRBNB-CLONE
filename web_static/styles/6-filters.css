@@ -29,8 +29,11 @@ button:hover {
     width: 25%;
     height: 100%;
     box-sizing: border-box;
-    margin: 0 auto;
-    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .filter:first-child {
@@ -48,4 +51,46 @@ button:hover {
     font-size: 14px;
     margin: 0;
     padding: 0;
+}
+
+/* ul.popover {
+    visibility: hidden;
+    background-color: #FAFAFA;
+    width: initial;
+    border: #DDDDDD 1px solid;
+    border-radius: 4px;
+    margin-bottom: -218px;
+    margin-left: -20px;
+    padding: 20px;
+}
+
+.filter:hover > ul.popover {
+    visibility: visible;
+} */
+
+ul.popover {
+    display: none; /* Hide the popover by default */
+    background-color: #FAFAFA;
+    width: 89.5%;
+    border: #DDDDDD 1px solid;
+    border-radius: 4px;
+    padding: 20px;
+    position: absolute;
+    top: 100%; /* Position the popover just below the parent */
+    left: 0;
+    margin-top: 0;
+}
+
+.filter {
+    position: relative; /* Set position to relative */
+}
+
+.filter:hover > ul.popover {
+    display: block; /* Show the popover when hovering over the filter */
+}
+ul.popover li {
+    list-style: none;
+}
+ul li h2 {
+    font-size: 16px;
 }

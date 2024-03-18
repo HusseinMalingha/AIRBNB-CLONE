@@ -30,8 +30,11 @@ button:hover {
     width: 25%;
     height: 100%;
     box-sizing: border-box;
-    margin: 0 auto;
-    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .filter:first-child {

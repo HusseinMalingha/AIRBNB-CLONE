@@ -1,30 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="styles/4-common.css">
-        <link rel="stylesheet" href="styles/3-header.css">
-        <link rel="stylesheet" href="styles/3-footer.css">
-        <link rel="stylesheet" href="styles/6-filters.css">
-    </head>
-    <body>
-        <header>
-            <img src="images/logo.png" style="margin-left: 20px;" alt="logo">
-        </header>
-        <div class="container">
-            <section class="filters">
-                <div class="locations filter">
-                    <h3>States</h3>
-                    <h4>California, Arizona...</h4>
-                </div>
-                <div class="amenities filter">
-                    <h3>Amenities</h3>
-                    <h4>Free wifi, Kitchen...</h4>
-                </div>
-                <button>Search</button>
-            </section>
-        </div>
-        <footer>
-            <p>Best School</p>
-        </footer>
-    </body>
+
+<head>
+    <link rel="stylesheet" href="styles/4-common.css">
+    <link rel="stylesheet" href="styles/3-header.css">
+    <link rel="stylesheet" href="styles/3-footer.css">
+    <link rel="stylesheet" href="styles/6-filters.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" style="margin-left: 20px;" alt="logo">
+    </header>
+    <div class="container">
+        <section class="filters">
+            <div class="locations filter">
+                <h3>States</h3>
+                <h4>California, Arizona...</h4>
+                <ul class="popover">
+                    <li>
+                        <h2>State</h2>
+                    </li>
+                    <ul>
+                        <li>City</li>
+                        <li>City</li>
+                    </ul>
+                    <li>
+                        <h2>State</h2>
+                    </li>
+                    <ul>
+                        <li>City</li>
+                        <li>City</li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="amenities filter">
+                <h3>Amenities</h3>
+                <h4>Free wifi, Kitchen...</h4>
+                <ul class="popover">
+                    <li>
+                        Internet
+                    </li>
+                    <li>
+                        Kitchen
+                    </li>
+                    <li>
+                        Swimming Pool
+                    </li>
+                </ul>
+            </div>
+            <button>Search</button>
+        </section>
+    </div>
+    <footer>
+        <p>Best School</p>
+    </footer>
+</body>
+
 </html>
