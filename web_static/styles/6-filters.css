@@ -36,7 +36,7 @@ button:hover {
 }
 
 .filter:first-child {
-    /* border-right: 1px solid #DDDDDD; */
+    border-right: 1px solid #DDDDDD;
 }
 
 .filter h3 {
